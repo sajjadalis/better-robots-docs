@@ -1,91 +1,60 @@
-# VitePress build output and cache
-dist/
-.cache/
-.temp/
-.vitepress/cache/
-.vitepress/dist/
-
-# Node.js dependencies
+# Dependencies
 node_modules/
+**/node_modules/
+
+# VitePress build output
+library/.vitepress/dist/
+library/.vitepress/cache/
+**/dist/
+**/.vitepress/dist/
+**/.vitepress/cache/
 
 # Package manager files
-.pnpm-debug.log*
-.pnpm-store
+package-lock.json
+yarn.lock
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.DS_Store
 
-# Log files
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
 
-# Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
-# nyc test coverage
-.nyc_output
-
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Output of 'npm pack'
+# Build artifacts
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
+# Debug
+.vscode-test/
+.nyc_output/
 
-# dotenv environment variables file
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
-# next.js build output
-.next
-
-# nuxt.js build output
-.nuxt
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
+# Optional: Backup files
+*.backup
+*.bak
+*~

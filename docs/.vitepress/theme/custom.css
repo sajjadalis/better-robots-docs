@@ -1,0 +1,40 @@
+/* Hero Section - Large Circle Background with Zoom Out Effect */
+.VPHome .VPHero {
+  position: relative;
+  overflow: hidden;
+}
+
+.VPHome .VPHero.has-image .image-container {
+  position: relative;
+}
+
+.VPHome .VPHero.has-image .image-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(135deg, #3b82f6 0%, #10b981 50%, #8b5cf6 100%);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+  z-index: -1;
+  filter: blur(40px);
+}
+
+.VPHome .VPHero.has-image:hover .image-bg {
+  transform: translate(-50%, -50%) scale(0.7);
+  opacity: 0.2;
+}
+
+/* Dark mode adjustments */
+.dark .VPHome .VPHero.has-image .image-bg {
+  background: linear-gradient(135deg, #3b82f6 0%, #10b981 50%, #8b5cf6 100%);
+  opacity: 0.6;
+}
+
+.dark .VPHome .VPHero.has-image:hover .image-bg {
+  opacity: 0.15;
+}

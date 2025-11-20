@@ -21,20 +21,34 @@ export default defineConfig({
         items: [
           { text: 'About', link: '/about' },
           { text: 'Installation', link: '/installation' },
-          { text: 'Quick Start', link: '/quick-start' }
+          { text: 'Quick Start', link: '/quick-start' },
+          { text: 'Basic Configuration', link: '/basic-configuration' }
         ]
       },
       {
         text: 'Features',
         items: [
           { text: 'Features Overview', link: '/features' },
-          { text: 'Settings', link: '/settings' }
+          {
+            text: 'Settings',
+            items: [
+              { text: 'Settings Overview', link: '/settings' },
+              { text: 'Pro Version Settings', link: '/settings/pro' },
+              { text: 'Advanced Settings', link: '/settings/advanced' }
+            ]
+          }
         ]
       },
       {
         text: 'Guides',
         items: [
-          { text: 'Examples', link: '/examples' },
+          {
+            text: 'Examples',
+            items: [
+              { text: 'Examples Overview', link: '/examples' },
+              { text: 'Migration Guide', link: '/examples/migration' }
+            ]
+          },
           { text: 'Best Practices', link: '/best-practices' },
           { text: 'Troubleshooting', link: '/troubleshooting' },
           { text: 'FAQ', link: '/faq' }
@@ -49,11 +63,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/wp-pods/better-robots-txt' }
+      { icon: 'globe', link: 'https://better-robots.com/' }
     ],
 
     footer: {
-      message: '© 2025 Better Robots.txt. Advanced WordPress Robots.txt Management plugin.'
+      message: '© 2025 Pagup. Better Robots.txt. Advanced WordPress Robots.txt Management plugin.'
+    },
+
+    search: {
+      provider: 'local'
     }
   }
 })

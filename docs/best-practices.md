@@ -208,32 +208,6 @@ Disallow: /wp-login.php
 ❌ **Cons**: Requires file permissions
 ```
 
-### Caching Strategy
-
-**Optimal caching setup**:
-
-**Nginx configuration**:
-```nginx
-location = /robots.txt {
-    expires 1h;
-    add_header Cache-Control "public, immutable";
-    add_header Vary Accept-Encoding;
-}
-
-# For physical files (Pro version)
-location = /robots.txt {
-    expires 1d;
-    add_header Cache-Control "public";
-}
-```
-
-**Apache configuration**:
-```apache
-<Files "robots.txt">
-    ExpiresActive On
-    ExpiresDefault "access plus 1 hour"
-</Files>
-```
 
 ### Crawl Delay Best Practices
 

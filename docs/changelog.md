@@ -2,9 +2,26 @@
 
 Complete version history and changes for Better Robots.txt plugin.
 
-## Version 2.0.2 - Latest
+## Version 2.0.3 - Latest
 
-**Release Date**: November 2024
+### 🔄 Improvements
+- **Enhanced Physical File Functionality (Pro)**: Improved physical file generation for better PageSpeed Insights compatibility
+- **Enhanced Freemius Integration**: Updated to SDK v2.13.0 for improved security and performance
+- **Cron-based Monitoring**: Hourly license verification with automatic file management
+
+### 🛡️ Security & Reliability
+- **User File Protection**: Prevents accidental deletion of user-modified robots.txt files
+- **Dual Protection System**: Combines immediate hooks with hourly backup cleanup
+- **File Ownership Tracking**: Advanced hash and signature verification for safe file management
+
+### 🐛 Bug Fixes
+- Fixed physical file cleanup not triggering in some license deactivation scenarios
+- Resolved WP-CLI compatibility issues with cron execution
+- Enhanced error handling for file operations
+
+---
+
+## Version 2.0.2
 
 ### 🆕 New Features
 - **Physical File Generation (Pro)**: Generate actual robots.txt files for better PageSpeed Insights compatibility
@@ -24,7 +41,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 2.0.1
 
-**Release Date**: October 2024
 
 ### 🐛 Bug Fixes
 - **Security Fix**: Updated Freemius SDK with latest security patches
@@ -40,7 +56,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 2.0.0 - Major Update
 
-**Release Date**: September 2024
 
 ### 🚀 Major New Features
 - **Complete UI/UX Overhaul**: Modern Vue.js-based interface
@@ -64,7 +79,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.5.2
 
-**Release Date**: August 2024
 
 ### 🐛 Bug Fixes
 - Fixed class initialization errors on some server configurations
@@ -80,7 +94,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.5.1
 
-**Release Date**: July 2024
 
 ### 🔥 New Features
 - **ChatGPT Bot Blocker**: Block OpenAI's GPTBot from crawling your content (Pro version)
@@ -96,7 +109,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.5.0
 
-**Release Date**: June 2024
 
 ### 🔥 Major Pro Features
 - **AI-Recommended Bad Bot Settings**: ChatGPT-4 optimized bot blocking rules
@@ -117,7 +129,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.7
 
-**Release Date**: May 2024
 
 ### 🐛 Bug Fixes
 - Removed deprecated COVID-19 movement feature
@@ -133,7 +144,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.6
 
-**Release Date**: April 2024
 
 ### 🛡️ Critical Security Update
 - **CSRF Protection**: Added nonce verification for all form submissions
@@ -149,7 +159,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.5
 
-**Release Date**: March 2024
 
 ### 🐛 Bug Fixes
 - Fixed PHP warning: undefined index in multiple locations
@@ -160,7 +169,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.4
 
-**Release Date**: February 2024
 
 ### 🛡️ Security Fix
 - **Critical Security Patch**: Fixed potential vulnerability in file handling
@@ -176,7 +184,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.3
 
-**Release Date**: January 2024
 
 ### 🐛 Bug Fixes
 - Fixed text alignment issues in admin interface
@@ -187,7 +194,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.2
 
-**Release Date**: December 2023
 
 ### 🆕 New Pro Features
 - **Default WordPress Sitemap Support**: Add WordPress native sitemaps
@@ -203,7 +209,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.1
 
-**Release Date**: November 2023
 
 ### 🔥 New Pro Features
 - **Search Engine Visibility**: Control search engine indexing at granular level
@@ -219,7 +224,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.4.0
 
-**Release Date**: October 2023
 
 ### 🎨 Major Interface Update
 - **Complete UI Redesign**: Modern, clean interface design
@@ -237,7 +241,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.2.4
 
-**Release Date**: September 2023
 
 ### 🛒 WooCommerce Enhancements
 - Added new rules for WooCommerce performance optimization
@@ -253,7 +256,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.2.3
 
-**Release Date**: August 2023
 
 ### 🔄 Improvements
 - Tested and compatible with WordPress 6.3
@@ -264,7 +266,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.2.2
 
-**Release Date**: July 2023
 
 ### 🔧 Technical Updates
 - Updated Freemius SDK to v2.4.1
@@ -275,7 +276,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.2.1
 
-**Release Date**: June 2023
 
 ### 🐛 Bug Fixes
 - Fixed "Call to undefined method" error
@@ -286,7 +286,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.2.0
 
-**Release Date**: May 2023
 
 ### 🛡️ Security Updates
 - **XSS Vulnerability Fix**: Addressed security issues in user input handling
@@ -302,7 +301,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.1.0
 
-**Release Date**: April 2023
 
 ### 👌 Admin Improvements
 - **Permanent Notice Dismissal**: Admin notices now stay dismissed per user
@@ -318,7 +316,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.7
 
-**Release Date**: March 2023
 
 ### 🔥 Promotional Features
 - Added WP Google Street View plugin promotion
@@ -334,7 +331,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.6
 
-**Release Date**: February 2023
 
 ### 👌 SDK Update
 - Updated Freemius to latest version v2.3.2
@@ -350,7 +346,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.5
 
-**Release Date**: January 2023
 
 ### 🌍 Community Feature
 - **COVID-19 Movement**: Option to join worldwide movement against Coronavirus
@@ -366,7 +361,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.4
 
-**Release Date**: December 2022
 
 ### 🐛 Bug Fixes
 - Fixed PHP undefined variable for `$active_tab`
@@ -377,7 +371,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.3
 
-**Release Date**: November 2022
 
 ### 🐛 Bug Fixes
 - Fixed PHP notice for `$host_url` variable
@@ -388,7 +381,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.2
 
-**Release Date**: October 2022
 
 ### 🛡️ Security Updates
 - **Enhanced Security**: Fixed multiple security vulnerabilities
@@ -404,7 +396,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.1
 
-**Release Date**: September 2022
 
 ### 📺 Promotion
 - **VidSEO Recommendation**: Added integration with VidSEO plugin
@@ -415,7 +406,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.3.0.0
 
-**Release Date**: August 2022
 
 ### 🎯 Major Rule Updates
 - **5 New Default Rules**: Added comprehensive WordPress protection
@@ -437,7 +427,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.9.3
 
-**Release Date**: July 2022
 
 ### 🐛 Bug Fixes
 - Fixed undefined index error while saving MENUS
@@ -448,7 +437,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.9.2
 
-**Release Date**: June 2022
 
 ### 🔧 Technical Updates
 - Updated Freemius SDK to v2.3.0
@@ -459,7 +447,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.8
 
-**Release Date**: May 2022
 
 ### 🔔 Notification Management
 - **Extended Dismissal**: Notifications disabled for 4 months
@@ -470,7 +457,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.7
 
-**Release Date**: April 2022
 
 ### 🌏 Regional Features (Pro)
 - **Chinese Search Engines**: Added Baidu, Sogou, Soso, Youdao support
@@ -486,7 +472,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.6.3
 
-**Release Date**: March 2022
 
 ### 📝 Text Improvements
 - Fixed text formatting issues
@@ -497,7 +482,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.6.2
 
-**Release Date**: February 2022
 
 ### 🔧 Multisite Bug Fix
 - **Fixed Critical Issue**: Resolved Yoast sitemap problems on multisite networks
@@ -508,7 +492,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.6.1
 
-**Release Date**: January 2022
 
 ### 🔧 Multisite Enhancement
 - **Multisite Fix**: Resolved critical multisite functionality issues for Pro users
@@ -519,7 +502,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.6
 
-**Release Date**: December 2021
 
 ### 🛡️ Security Update
 - **Security Patched**: Updated Freemius SDK with latest security fixes
@@ -530,7 +512,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.5.1
 
-**Release Date**: November 2021
 
 ### 🐛 Bug Fixes
 - Fixed minor issue with crawl-delay settings
@@ -541,7 +522,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.5
 
-**Release Date**: October 2021
 
 ### 🔧 Improvements
 - Fixed crawl-delay issues in high-traffic environments
@@ -552,7 +532,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.4
 
-**Release Date**: September 2021
 
 ### 🐛 Bug Fixes
 - Fixed a critical bug affecting robots.txt generation
@@ -563,7 +542,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.3
 
-**Release Date**: August 2021
 
 ### 🔥 New Feature
 - **Hide from SERPs**: New option to hide robots.txt from search engine results pages
@@ -579,7 +557,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.2
 
-**Release Date**: July 2021
 
 ### 🐛 Bug Fixes
 - Fixed bugs causing errors in Google Search Console
@@ -590,7 +567,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.1
 
-**Release Date**: June 2021
 
 ### 🔥 Major Pro Features
 - **Multisite Support**: Complete multisite network management
@@ -607,7 +583,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.2.0
 
-**Release Date**: May 2021
 
 ### 🔥 Game-Changing Feature
 - **Post Meta Box**: Disable individual posts, pages, and WooCommerce products from search engines
@@ -625,7 +600,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.6
 
-**Release Date**: April 2021
 
 ### 🚀 Growth Hacking
 - **150+ Growth Tools**: Comprehensive list of online growth tools
@@ -641,7 +615,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.5
 
-**Release Date**: March 2021
 
 ### 🔧 SEO Enhancements
 - **Yandex Integration**: Added clean-param support for Yandex bot
@@ -653,7 +626,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.4
 
-**Release Date**: February 2021
 
 ### 🐛 Critical Bug Fixes
 - Fixed default robots.txt file issue on first activation
@@ -664,7 +636,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.3
 
-**Release Date**: January 2021
 
 ### 📖 Improvements
 - Fixed readability issues in admin interface
@@ -675,7 +646,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.2
 
-**Release Date**: December 2020
 
 ### 🖼️ Image Enhancement
 - **Alt Tags Boost**: Enhanced support for image alt text optimization
@@ -686,7 +656,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9.1
 
-**Release Date**: November 2020
 
 ### 🛒 Bug Fix
 - Fixed critical bug in disallow rules for WooCommerce
@@ -697,7 +666,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.9
 
-**Release Date**: October 2020
 
 ### 🔥 WooCommerce Focus
 - **Loading Performance**: Specialized optimization for WooCommerce stores
@@ -709,7 +677,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.8
 
-**Release Date**: September 2020
 
 ### 🔧 Technical Enhancement
 - **XML Sitemap Detection**: Automatic detection of XML sitemaps
@@ -721,7 +688,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.7
 
-**Release Date**: August 2020
 
 ### 🚀 New Features
 - **SEO Performance Tools**: Curated list of top SEO performance plugins
@@ -738,7 +704,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.6
 
-**Release Date**: July 2020
 
 ### 🌍 International Expansion
 - **Language Support**: Added Russian and Chinese (Simplified) languages
@@ -749,7 +714,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.5
 
-**Release Date**: June 2020
 
 ### 🔧 Technical Feature
 - **Physical File Detection**: Detect and handle physical robots.txt files
@@ -760,7 +724,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.4
 
-**Release Date**: May 2020
 
 ### 🎨 Customization Features
 - **Personalization**: Add custom signatures and text to robots.txt
@@ -771,7 +734,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.3
 
-**Release Date**: April 2020
 
 ### 🐛 Bug Fix
 - Fixed critical bug affecting plugin functionality
@@ -782,7 +744,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.2
 
-**Release Date**: March 2020
 
 ### 🛡️ Security Enhancement
 - **Spam Backlink Blocker**: New feature to prevent spam backlinks
@@ -793,7 +754,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.1
 
-**Release Date**: February 2020
 
 ### 🐛 Bug Fix
 - Fixed bug causing performance issues
@@ -804,7 +764,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.1.0
 
-**Release Date**: January 2020
 
 ### 🔥 Major Update
 - **Enhanced Options**: Changed allow/off to allow/disallow/off for better control
@@ -816,7 +775,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.0.2
 
-**Release Date**: December 2019
 
 ### 🎨 UI Improvements
 - Fixed minor styling issues
@@ -827,7 +785,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.0.1
 
-**Release Date**: November 2019
 
 ### 🔧 Bug Fixes
 - Fixed plugin directory URL issue
@@ -838,7 +795,6 @@ Complete version history and changes for Better Robots.txt plugin.
 
 ## Version 1.0.0
 
-**Release Date**: October 2019
 
 ### 🎉 Initial Release
 - **Core Functionality**: Basic robots.txt generation and management
