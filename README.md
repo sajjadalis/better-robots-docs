@@ -40,9 +40,9 @@ The Better Robots.txt plugin offers:
 ### For Plugin Users
 
 1. **Install the plugin** from [WordPress.org](https://wordpress.org/plugins/better-robots-txt/)
-2. **Read the [Installation Guide](/installation)** for detailed setup instructions
-3. **Follow the [Quick Start Guide](/quick-start)** to configure your first robots.txt rules
-4. **Explore [Best Practices](/best-practices)** for optimal SEO performance
+2. **Read the [Installation Guide](https://docs.better-robots.com/installation)** for detailed setup instructions
+3. **Follow the [Quick Start Guide](https://docs.better-robots.com/quick-start)** to configure your first robots.txt rules
+4. **Explore [Best Practices](https://docs.better-robots.com/best-practices)** for optimal SEO performance
 
 ### For Documentation Contributors
 
@@ -212,14 +212,14 @@ This documentation is licensed under the **MIT License** - see the [LICENSE](LIC
 - **Official Website**: [better-robots.com](https://better-robots.com/)
 - **Documentation**: [docs.better-robots.com](https://docs.better-robots.com/)
 - **Support**: [WordPress.org Support Forum](https://wordpress.org/support/plugin/better-robots-txt/)
-- **GitHub Issues**: [Report Issues](https://github.com/pagup/better-robots-docs/issues)
+- **GitHub Issues**: [Report Issues](https://github.com/sajjadalis/better-robots-docs/issues)
 
 ## 📊 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/pagup/better-robots-docs?style=social)
-![GitHub forks](https://img.shields.io/github/forks/pagup/better-robots-docs?style=social)
-![GitHub issues](https://img.shields.io/github/issues/pagup/better-robots-docs)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/pagup/better-robots-docs)
+![GitHub stars](https://img.shields.io/github/stars/sajjadalis/better-robots-docs?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sajjadalis/better-robots-docs?style=social)
+![GitHub issues](https://img.shields.io/github/issues/sajjadalis/better-robots-docs)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/sajjadalis/better-robots-docs)
 
 ---
 

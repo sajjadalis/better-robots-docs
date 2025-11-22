@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Better Robots.txt"
-  text: "Advanced WordPress Robots.txt Management"
+  text: "AI-Ready, Advanced WordPress Robots.txt Management for SEO"
   tagline: Boost your SEO, protect your content, and optimize crawl budget with intelligent robots.txt configuration
   image:
     src: /logo.svg
@@ -49,7 +49,7 @@ features:
 
 <style>
 .VPHero .text {
-  font-size: 36px !important;
-  line-height: 42px !important;
+  font-size: 32px !important;
+  line-height: 38px !important;
 }
 </style>

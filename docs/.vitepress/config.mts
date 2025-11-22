@@ -78,7 +78,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '© 2025 Pagup. Better Robots.txt. Advanced WordPress Robots.txt Management plugin.'
+      message: '© 2025 Pagup. Better Robots.txt. AI-Ready, Advanced WordPress Robots.txt Management for SEO.'
     },
 
     search: {
